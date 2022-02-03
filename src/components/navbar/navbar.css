@@ -1,0 +1,17 @@
+.navbar-site{
+    background-color: rgb(183, 177, 243);
+}
+.Tomate{
+    color:rgb(52, 84, 173);
+    font-size: 25px;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 15px;
+    font-family: italic;
+}
+.pesquisar{
+    font-family: fantasy;
+}
+a:hover {
+   color:white;
+}
