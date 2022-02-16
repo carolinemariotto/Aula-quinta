@@ -1,6 +1,5 @@
 import not from '../imagens/not.png';
-const Favoritos =()=>{
-    return (
+const Link = ()=>{ return (
         <>
         <img src={not} />
         </>
@@ -8,4 +7,4 @@ const Favoritos =()=>{
     )
 }
 
-export default Favoritos;
+export default Link;

@@ -2,6 +2,8 @@ import React from "react";
 import './navbar.css';
 import icon from '../imagens/icon.png';
 import styled from "styled-components";
+import { Link } from "react-router-dom";
+
 function Navbar (){
     return(
         <nav class="navbar navbar-expand-lg navbar-light navbar-site">
@@ -14,10 +16,10 @@ function Navbar (){
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Top Animes</a>
+                        <a class="Tomate" ><Link to = "/">Home</Link></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Indicações</a>
+                       <a><Link to="/Link"></Link></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Temporada Atual</a>

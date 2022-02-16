@@ -12,6 +12,9 @@
 .pesquisar{
     font-family: fantasy;
 }
+a{
+    text-decoration: none;
+}
 a:hover {
-   color:white;
+   color:rgb(255, 20, 20);
 }
