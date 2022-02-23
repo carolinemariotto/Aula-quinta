@@ -9,7 +9,7 @@ function Navbar (){
         <nav class="navbar navbar-expand-lg navbar-light navbar-site">
             <div class="container-fluid">
                 <Icon src={icon}/>
-                <a class="Tomate" href="#">Music</a>
+                <a class="Carol" href="#">Carol</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -22,10 +22,10 @@ function Navbar (){
                        <a><Link to="/Link"></Link></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Temporada Atual</a>
+                        <a class="nav-link active" href="#">Links</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Genero</a>
+                        <a class="nav-link active" href="#">Cont</a>
                     </li>
                 </ul>
                 </div>
